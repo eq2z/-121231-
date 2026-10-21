@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="658" viewBox="0 0 512 658">
+  <defs>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="9" result="blur"/>
+      <feFlood flood-color="#ffffff" flood-opacity="0.55"/>
+      <feComposite in2="blur" operator="in" result="shadow"/>
+      <feMerge><feMergeNode in="shadow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#glow)" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
+    <!-- المايك -->
+    <rect x="196" y="110" width="120" height="210" rx="60" fill="#ffffff" stroke="none"/>
+    <path d="M150 260 v20 a106 106 0 0 0 212 0 v-20" stroke-width="22"/>
+    <line x1="256" y1="386" x2="256" y2="444" stroke-width="22"/>
+    <line x1="196" y1="452" x2="316" y2="452" stroke-width="22"/>
+    <!-- خط الكتم -->
+    <line x1="128" y1="118" x2="384" y2="430" stroke="#1a1a1a" stroke-width="44"/>
+    <line x1="128" y1="118" x2="384" y2="430" stroke-width="24"/>
+  </g>
+  <text x="256" y="600" text-anchor="middle" font-family="Tahoma, Arial, sans-serif" font-size="82" font-weight="bold" fill="#ffffff" filter="url(#glow)">ميوت صوتي</text>
+</svg>
